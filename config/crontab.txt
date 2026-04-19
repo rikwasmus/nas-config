@@ -1,0 +1,8 @@
+MAILTO=""
+PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/syno/sbin:/usr/syno/bin:/usr/local/sbin:/usr/local/bin
+#minute	hour	mday	month	wday	who	command
+0	0	*	*	*	root	/var/packages/GlacierBackup/target/bin/synoglaciertool -e
+0	3	*	*	*	root	/usr/syno/bin/synoschedtask --run id=2
+0	0	14	5,11	*	root	/usr/syno/bin/synoschedtask --run id=3
+21	3	*	*	6	root	/usr/syno/bin/synoschedtask --run id=4
+0	3	*	*	1	root	/usr/syno/bin/synoschedtask --run id=5

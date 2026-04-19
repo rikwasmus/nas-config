@@ -1,0 +1,9 @@
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/md0        2.3G  1.3G  889M  60% /
+devtmpfs        805M     0  805M   0% /dev
+tmpfs           823M   60K  823M   1% /dev/shm
+tmpfs           823M   17M  806M   3% /run
+tmpfs           823M     0  823M   0% /sys/fs/cgroup
+tmpfs           823M   29M  794M   4% /tmp
+/dev/loop0       27M  769K   24M   4% /tmp/SynologyAuthService
+/dev/vg1000/lv   11T  2.8T  8.1T  26% /volume1
