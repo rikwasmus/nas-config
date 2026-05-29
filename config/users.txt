@@ -1,5 +1,7 @@
 admin:1024:100:System default user:/var/services/homes/admin:/bin/sh
+backupadmin:1029:100::/var/services/homes/backupadmin:/bin/sh
 Eline Bollen:1027:100::/var/services/homes/Eline Bollen:/sbin/nologin
 guest:1025:100:Guest:/nonexist:/usr/bin/nologin
 http:1023:1023::/var/services/web:/bin/false
 rik.wasmus:1026:100::/var/services/homes/rik.wasmus:/bin/sh
+sonarr_api:1028:100::/var/services/homes/sonarr_api:/sbin/nologin

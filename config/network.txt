@@ -8,7 +8,8 @@
     inet 169.254.32.244/16 brd 169.254.255.255 scope global eth1
 
 # DNS
-nameserver	192.168.1.1
+nameserver	1.1.1.1
+nameserver	8.8.8.8
 domain	home
 
 # Hostname

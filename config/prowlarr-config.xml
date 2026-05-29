@@ -1,0 +1,17 @@
+<Config>
+  <Branch>master</Branch>
+  <LaunchBrowser>False</LaunchBrowser>
+  <Port>9696</Port>
+  <UpdateAutomatically>True</UpdateAutomatically>
+  <UpdateMechanism>BuiltIn</UpdateMechanism>
+  <LogLevel>debug</LogLevel>
+  <UrlBase></UrlBase>
+  <EnableSsl>False</EnableSsl>
+  <AuthenticationMethod>Forms</AuthenticationMethod>
+  <AuthenticationRequired>Enabled</AuthenticationRequired>
+  <InstanceName>Prowlarr</InstanceName>
+  <BindAddress>*</BindAddress>
+  <SslPort>6969</SslPort>
+  <SslCertPath></SslCertPath>
+  <UserAgent>Curl</UserAgent>
+</Config>

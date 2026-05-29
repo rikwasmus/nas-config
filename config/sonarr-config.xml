@@ -1,0 +1,16 @@
+<Config>
+  <Branch>main</Branch>
+  <LaunchBrowser>False</LaunchBrowser>
+  <Port>8989</Port>
+  <UpdateAutomatically>True</UpdateAutomatically>
+  <UpdateMechanism>BuiltIn</UpdateMechanism>
+  <LogLevel>debug</LogLevel>
+  <UrlBase></UrlBase>
+  <EnableSsl>False</EnableSsl>
+  <InstanceName>Sonarr</InstanceName>
+  <BindAddress>*</BindAddress>
+  <SslPort>9898</SslPort>
+  <SslCertPath></SslCertPath>
+  <AuthenticationMethod>Forms</AuthenticationMethod>
+  <AuthenticationRequired>Enabled</AuthenticationRequired>
+</Config>

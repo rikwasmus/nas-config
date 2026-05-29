@@ -1,4 +1,4 @@
-administrators:x:101:rik.wasmus,admin
+administrators:x:101:rik.wasmus,admin,backupadmin
 dovecot:x:143:dovecot
 http:x:1023:
 HybridShareSystem:x:940:
@@ -8,12 +8,12 @@ myds:x:934:
 payment:x:935:
 postfix:x:125:postfix
 SynologyGuests:x:106:
-synopkgs:x:999:SynologyApplicationService,OAuthService,DhcpServer,sc-synocli-net,FileStation,SecureSignIn,HyperBackup,DNSServer,SynoFinder,Python2,DownloadStation,MediaServer,VideoStation,SynologyDrive,AudioStation,QuickConnect,CodecPack,SynoOnlinePack_v2,sc-python311,sc-homeassistant,StorageManager,PlexMediaServer,HybridShare,CloudSync,sc-python312,SynoAnalytics,domotz,SurveillanceVideoExtension,SurveillanceStation
+synopkgs:x:999:SynologyApplicationService,OAuthService,DhcpServer,sc-synocli-net,FileStation,SecureSignIn,HyperBackup,DNSServer,SynoFinder,Python2,DownloadStation,MediaServer,VideoStation,SynologyDrive,AudioStation,QuickConnect,CodecPack,SynoOnlinePack_v2,sc-python311,sc-homeassistant,StorageManager,PlexMediaServer,HybridShare,CloudSync,sc-python312,SynoAnalytics,domotz,SurveillanceVideoExtension,SurveillanceStation,sc-sonarr,sc-prowlarr,sc-nzbget,sc-synocli-monitor,sc-synocli-videodriver,sc-ffmpeg7
 synoplugind:x:941:
 SynoRsyncd:x:873:
 synotss:x:942:
 taskmgr:x:939:
 tokenmgr:x:938:
 users:x:100:
-videodriver:x:937:PlexMediaServer
+videodriver:x:937:PlexMediaServer,sc-synocli-videodriver,sc-ffmpeg7
 vmcomm:x:936:

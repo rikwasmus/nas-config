@@ -15,7 +15,11 @@ SurveillanceVideoExtension
 SynologyApplicationService
 SynologyDrive
 UniversalViewer
-domotz
+ffmpeg7
+nzbget
+prowlarr
 python311
 python312
+sonarr
 synocli-net
+synocli-videodriver
